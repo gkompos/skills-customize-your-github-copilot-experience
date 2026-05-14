@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Responsive Portfolio Page",
+    "topic": "HTML/CSS",
+    "dueDate": "2026-06-02",
+    "description": "Build a personal portfolio layout that works on desktop and mobile."
+  },
+  {
+    "title": "Form Validation Practice",
+    "topic": "JavaScript",
+    "dueDate": "2026-05-20",
+    "description": "Validate form fields and display friendly error messages."
+  },
+  {
+    "title": "DOM Quiz App",
+    "topic": "JavaScript",
+    "dueDate": "2026-05-18",
+    "description": "Create a small quiz app that updates the UI dynamically."
+  },
+  {
+    "title": "CSS Grid News Layout",
+    "topic": "HTML/CSS",
+    "dueDate": "2026-05-25",
+    "description": "Use CSS Grid to build a two-column article layout."
+  }
+]

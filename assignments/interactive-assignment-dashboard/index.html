@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Assignment Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <h1>Interactive Assignment Dashboard</h1>
+        <p>Use search, filters, and sorting to explore assignments.</p>
+      </header>
+
+      <section class="controls" aria-label="Dashboard controls">
+        <label>
+          Search
+          <input id="search-input" type="text" placeholder="Search by title..." />
+        </label>
+
+        <label>
+          Topic
+          <select id="topic-filter">
+            <option value="all">All Topics</option>
+          </select>
+        </label>
+
+        <label>
+          Sort by Due Date
+          <select id="sort-order">
+            <option value="asc">Nearest First</option>
+            <option value="desc">Latest First</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="status" class="status" aria-live="polite"></section>
+      <section id="assignment-list" class="assignment-list"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

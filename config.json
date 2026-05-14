@@ -72,6 +72,35 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "interactive-assignment-dashboard",
+      "title": "Interactive Assignment Dashboard",
+      "description": "Build an interactive web dashboard that loads, filters, and sorts assignment data using HTML, CSS, and JavaScript.",
+      "path": "assignments/interactive-assignment-dashboard",
+      "dueDate": "2026-05-21",
+      "attachments": [
+        {
+          "name": "Starter HTML",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "Starter CSS",
+          "file": "styles.css",
+          "type": "css"
+        },
+        {
+          "name": "Starter JavaScript",
+          "file": "script.js",
+          "type": "javascript"
+        },
+        {
+          "name": "Sample Assignment Data",
+          "file": "assignments.json",
+          "type": "json"
+        }
+      ]
     }
   ]
 }
